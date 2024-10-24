@@ -1,0 +1,34 @@
+/* Mặc định là ẩn menu */
+.site-navbar {
+    display: none;
+    opacity: 0;
+
+}
+
+/* Khi menu mở ra */
+.site-navbar.open {
+    display: block;
+    opacity: 1;
+}
+
+/* Style cho nút toggle */
+.site-menu-toggle {
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 22px;
+
+}
+
+.site-menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    /* Màu mặc định cho các thanh ngang */
+    margin: 5px 0;
+
+}
+
+
+.site-menu-toggle.open {}
