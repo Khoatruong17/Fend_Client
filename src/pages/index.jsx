@@ -49,10 +49,9 @@ const Index = () => {
                         <div className="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
                             <h2 className="heading">Welcome!</h2>
                             <p className="mb-4">
-                                Far far away, behind the word mountains, far from the countries
-                                Vokalia and Consonantia, there live the blind texts. Separated
-                                they live in Bookmarksgrove right at the coast of the Semantics, a
-                                large language ocean.
+                                <b>Welcome to Rent Nest!<br></br>
+                                    As your trusted booking platform, <br></br>Rent Nest connects you to a diverse range of accommodations for every budget, whether for a weekend getaway or business trip. Enjoy seamless booking as we help you find the perfect stay for your needs.
+                                </b>
                             </p>
                             <p>
                                 <a href="/" className="btn btn-primary text-white py-2 mr-3"
@@ -77,10 +76,10 @@ const Index = () => {
                         <div className="col-md-7">
                             <h2 className="heading" data-aos="fade-up">Rooms &amp; Suites</h2>
                             <p data-aos="fade-up" data-aos-delay="100">
-                                Far far away, behind the word mountains, far from the countries
-                                Vokalia and Consonantia, there live the blind texts. Separated
-                                they live in Bookmarksgrove right at the coast of the Semantics, a
-                                large language ocean.
+                                <b>At Rent Nest</b>, we offer a wide range of room types satisfied every traveler’s needs.
+                                Whether you're need for cozy single rooms,
+                                spacious suites, family-friendly apartments, or luxurious penthouses,
+                                we have options to meet every style and budget. Discover a perfect space with us!
                             </p>
                         </div>
                     </div>
@@ -694,10 +693,10 @@ const Index = () => {
                         <div className="col-md-7">
                             <h2 className="heading" data-aos="fade-up">Events</h2>
                             <p data-aos="fade-up">
-                                Far far away, behind the word mountains, far from the countries
-                                Vokalia and Consonantia, there live the blind texts. Separated
-                                they live in Bookmarksgrove right at the coast of the Semantics, a
-                                large language ocean.
+
+                                Rent Nest offers versatile room rentals for all events—whether business meetings
+                                , weddings, or family gatherings.
+                                Let us provide the perfect space to make your occasion unforgettable!
                             </p>
                         </div>
                     </div>

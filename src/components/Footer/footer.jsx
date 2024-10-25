@@ -32,9 +32,9 @@ function Footer() {
                         <div className="col-md-3 mb-5">
                             <ul className="list-unstyled link">
                                 <li><a href="/">The Rooms &amp; Suites</a></li>
-                                <li><a href="/">About Us</a></li>
+                                <li><a href="/">Events</a></li>
                                 <li><a href="/">Contact Us</a></li>
-                                <li><a href="/">Restaurant</a></li>
+                                <li><a href="/reservation">Reservation</a></li>
                             </ul>
                         </div>
                         <div className="col-md-3 mb-5 pr-md-5 contact-info">
@@ -43,12 +43,11 @@ function Footer() {
                                 <span className="d-block">
                                     <span className="ion-ios-location h5 mr-3 text-primary">
                                     </span>
-                                    Address:
+                                    Address: Golden Park Tower, Number 2 Phạm Văn Bạch street, Yên Hòa, Cầu Giấy distric, Hà Nội city
                                 </span>
 
                                 <span>
-                                    198 West 21th Street,
-                                    Suite 721 New York NY 10016
+
                                 </span>
 
                             </p>
@@ -56,13 +55,14 @@ function Footer() {
                                 <span className="d-block"
                                 ><span className="ion-ios-telephone h5 mr-3 text-primary">
                                     </span>Phone:</span>
-                                <span> (+1) 435 3533</span>
+                                <span> (+84)  024.7300.2266</span>
+                                <br></br><span> (+84)  083.317.0701</span>
                             </p>
                             <p>
                                 <span className="d-block"
                                 ><span className="ion-ios-email h5 mr-3 text-primary">
                                     </span>Email:</span>
-                                <span> info@domain.com</span>
+                                <span> truongndkgch190486@fpt.edu.vn</span>
                             </p>
                         </div>
                         <div className="col-md-3 mb-5">
@@ -84,7 +84,7 @@ function Footer() {
                     <div className="row pt-5">
                         <p className="col-md-6 text-left">
                             {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                            Copyright &copy;
+                            Copyright &copy; Huy Đức
                             <script>
                                 document.write(new Date().getFullYear());
                             </script>
