@@ -1,5 +1,8 @@
 import React from "react";
 import Header from "../components/header";
+import Footer from "../components/Footer/footer";
+import RoomCheck from "../components/Check-Room/room-check";
+import SmoothScroll from '../components/SmoothScroll/SmothScroll';
 
 
 const Index = () => {
@@ -26,88 +29,10 @@ const Index = () => {
                     </div>
                 </div>
 
-                <a className="mouse smoothscroll" href="/next">
-                    <div className="mouse-icon">
-                        <span className="mouse-wheel"></span>
-                    </div>
-                </a>
+                <SmoothScroll />
             </section>
 
-            <section className="section bg-light pb-0">
-                <div className="container">
-                    <div className="row check-availabilty" id="next">
-                        <div className="block-32" data-aos="fade-up" data-aos-offset="-200">
-                            <form action="/">
-                                <div className="row">
-                                    <div className="col-md-6 mb-3 mb-lg-0 col-lg-3">
-                                        <label htmlFor="checkin_date" className="font-weight-bold text-black"
-                                        >Check In</label>
-
-                                        <div className="field-icon-wrap">
-                                            <div className="icon"><span className="icon-calendar"></span></div>
-                                            <input type="text" id="checkin_date" className="form-control" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 mb-3 mb-lg-0 col-lg-3">
-                                        <label htmlFor="checkout_date" className="font-weight-bold text-black"
-                                        >Check Out</label>
-
-                                        <div className="field-icon-wrap">
-                                            <div className="icon"><span className="icon-calendar"></span></div>
-                                            <input
-                                                type="text"
-                                                id="checkout_date"
-                                                className="form-control"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 mb-3 mb-md-0 col-lg-3">
-                                        <div className="row">
-                                            <div className="col-md-6 mb-3 mb-md-0">
-                                                <label htmlFor="adults" className="font-weight-bold text-black"
-                                                >Adults</label>
-
-                                                <div className="field-icon-wrap">
-                                                    <div className="icon">
-                                                        <span className="ion-ios-arrow-down"></span>
-                                                    </div>
-                                                    <select name="" id="adults" className="form-control">
-                                                        <option value="">1</option>
-                                                        <option value="">2</option>
-                                                        <option value="">3</option>
-                                                        <option value="">4+</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6 mb-3 mb-md-0">
-                                                <label htmlFor="children" className="font-weight-bold text-black"
-                                                >Children</label   >
-
-                                                <div className="field-icon-wrap">
-                                                    <div className="icon">
-                                                        <span className="ion-ios-arrow-down"></span>
-                                                    </div>
-                                                    <select name="" id="children" className="form-control">
-                                                        <option value="">1</option>
-                                                        <option value="">2</option>
-                                                        <option value="">3</option>
-                                                        <option value="">4+</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-lg-3 align-self-end">
-                                        <button className="btn btn-primary btn-block text-white">
-                                            Check Availabilty
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <RoomCheck />
 
             <section className="py-5 bg-light">
                 <div className="container">
@@ -860,117 +785,9 @@ const Index = () => {
             </section>
 
 
-            <section
-                className="section bg-image overlay"
-                style={{ backgroundImage: 'url(images/hero_4.jpg)' }}
-            >
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div
-                            className="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left"
-                            data-aos="fade-up"
-                        >
-                            <h2 className="text-white font-weight-bold">
-                                A Best Place To Stay. Reserve Now!
-                            </h2>
-                        </div>
-                        <div
-                            className="col-12 col-md-6 text-center text-md-right"
-                            data-aos="fade-up"
-                            data-aos-delay="200"
-                        >
-                            <a
-                                href="reservation.html"
-                                className="btn btn-outline-white-primary py-3 text-white px-5">
-                                Reserve Now</a>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <footer className="section footer-section">
-                <div className="container">
-                    <div className="row mb-4">
-                        <div className="col-md-3 mb-5">
-                            <ul className="list-unstyled link">
-                                <li><a href="/about">About Us</a></li>
-                                <li><a href="/">Terms &amp; Conditions</a></li>
-                                <li><a href="/">Privacy Policy</a></li>
-                                <li><a href="/">Rooms</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-md-3 mb-5">
-                            <ul className="list-unstyled link">
-                                <li><a href="/">The Rooms &amp; Suites</a></li>
-                                <li><a href="/">About Us</a></li>
-                                <li><a href="/">Contact Us</a></li>
-                                <li><a href="/">Restaurant</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-md-3 mb-5 pr-md-5 contact-info">
-                            {/* <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> */}
-                            <p>
-                                <span className="d-block">
-                                    <span className="ion-ios-location h5 mr-3 text-primary">
-                                    </span>Address:
-                                </span>
-
-                                <span>
-                                    198 West 21th Street, <br />
-                                    Suite 721 New York NY 10016
-                                </span>
-
-                            </p>
-                            <p>
-                                <span className="d-block"
-                                ><span className="ion-ios-telephone h5 mr-3 text-primary">
-                                    </span>Phone:</span>
-                                <span> (+1) 435 3533</span>
-                            </p>
-                            <p>
-                                <span className="d-block"
-                                ><span className="ion-ios-email h5 mr-3 text-primary">
-                                    </span>Email:</span>
-                                <span> info@domain.com</span>
-                            </p>
-                        </div>
-                        <div className="col-md-3 mb-5">
-                            <p>Sign up for our newsletter</p>
-                            <form action="/" className="footer-newsletter">
-                                <div className="form-group">
-                                    <input
-                                        type="email"
-                                        className="form-control"
-                                        placeholder="Email..."
-                                    />
-                                    <button type="submit" className="btn">
-                                        <span className="fa fa-paper-plane"></span>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div className="row pt-5">
-                        <p className="col-md-6 text-left">
-                            {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                            Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-
-                        </p>
-
-                        <p className="col-md-6 text-right social">
-                            <a href="/"><span className="fa fa-tripadvisor"></span></a>
-                            <a href="facebook.com"><span className="fa fa-facebook"></span></a>
-                            <a href="/"><span className="fa fa-twitter"></span></a>
-                            <a href="/"><span className="fa fa-linkedin"></span></a>
-                            <a href="/"><span className="fa fa-vimeo"></span></a>
-                        </p>
-                    </div>
-                </div>
-            </footer>
+            <Footer />
         </div >
     );
 };

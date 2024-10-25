@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import About from "./pages/about";
 import Events from "./pages/events";
@@ -5,6 +7,7 @@ import Reservation from "./pages/reservation";
 import Rooms from "./pages/rooms";
 import Contact from "./pages/contact";
 import Index from "./pages/index";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

@@ -13,7 +13,7 @@ function Header() {
             <div className="site-header js-site-header">
                 <div className="container-fluid">
                     <div className="row align-items-center">
-                        <div className="col-6 col-lg-4 site-logo" data-aos="fade">
+                        <div className="col-6 col-lg-4 site-logo" >
                             <a href="/">Rent Nest</a>
                         </div>
                         <div className="col-6 col-lg-8">
