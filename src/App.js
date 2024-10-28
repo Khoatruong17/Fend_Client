@@ -7,6 +7,9 @@ import Reservation from "./pages/reservation";
 import Rooms from "./pages/rooms";
 import Contact from "./pages/contact";
 import Index from "./pages/index";
+import Login from "./pages/Auth/log-in";
+import Signup from "./pages/Auth/sign-up";
+import Resetpassword from "./pages/Auth/reset-pass";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -20,6 +23,9 @@ function App() {
         <Route path='/reservation' element={<Reservation />} />
         <Route path='/rooms' element={<Rooms />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/log-in' element={<Login />} />
+        <Route path='/sign-up' element={<Signup />} />
+        <Route path='/reset-password' element={<Resetpassword />} />
       </Routes>
     </BrowserRouter>
 

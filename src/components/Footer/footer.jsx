@@ -31,13 +31,13 @@ function Footer() {
                         </div>
                         <div className="col-md-3 mb-5">
                             <ul className="list-unstyled link">
-                                <li><a href="/">The Rooms &amp; Suites</a></li>
-                                <li><a href="/">Events</a></li>
-                                <li><a href="/">Contact Us</a></li>
+                                <li><a href="/rooms">The Rooms &amp; Suites</a></li>
+                                <li><a href="/events">Events</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/reservation">Reservation</a></li>
                             </ul>
                         </div>
-                        <div className="col-md-3 mb-5 pr-md-5 contact-info">
+                        <div className="col-md-3 mb-5 pr-md-5 ">
                             {/* <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> */}
                             <p>
                                 <span className="d-block">
